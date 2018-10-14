@@ -39,6 +39,7 @@ window.onload = function(){
         loop: true,
     });
 
-    content.scrollTop = content.scrollHeight;
+    var site = new PCAS("ProvinceId","CityId");//通过ID省市二级联动，无默认值，无文字提示信息
+    var site2 = new PCAS("ProvinceId2","CityId2");//通过ID省市二级联动，无默认值，无文字提示信息
 
 }
