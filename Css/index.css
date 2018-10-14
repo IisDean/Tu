@@ -1,0 +1,212 @@
+/**
+ * Created by IisDean on 2018/10/14.
+ */
+html,body,p,ul,li,ol {
+    margin: 0;
+    padding: 0;
+}
+ul li ,ol li {list-style: none;}
+.ui-full-img img {
+    display: block;
+    width: 100%;
+}
+.ui-abs {
+    position: absolute;
+}
+.ui-abs-center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.clearfix:after {
+    display: block;
+    content: '';
+    clear: both;
+}
+.ui-text-right {
+    text-align: right;
+}
+.ui-text-center {
+    text-align: center;
+}
+
+.article-wrap {
+    position: relative;
+}
+.apply-container {
+    left: 16%;
+    bottom: 5%;
+    width: 74%;
+}
+.apply-wrap {
+    top: 5%;
+    left: 23%;
+    width: 64%;
+    height: 85%;
+}
+.apply-title-text {
+    margin: 10px 0 16px;
+    font-weight: bold;
+    color: #fff;
+}
+.yellow-text {
+    color: #ffd200;
+}
+.apply-content {
+    position: relative;
+    width: 100%;
+    height: 80%;
+}
+.apply-content .apply-content-right {
+    float: right;
+}
+.apply-content-left{
+    margin-right: -10px;
+    top: 50%;
+    width: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+.apply-form-wrap {
+    position: relative;
+    border: 2px solid #fff;
+    padding: 15px 2% 24px 5%;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.input-title-text {
+    float: left;
+    display: block;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+}
+.input-wrap,
+.select-wrap {
+    position: relative;
+    float: left;
+    width: 60%;
+    height: 30px;
+    border: 1px solid #fff;
+}
+.input-wrap input,
+.select-wrap select {
+    display: block;
+    padding: 0.1rem .3rem;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    -webkit-appearance: none;
+    appearance: none;
+    outline: none;
+}
+.input-wrap input::-webkit-input-placeholder {
+    color: #fff;
+}
+.select-wrap select option {
+    color: #000;
+}
+.select-wrap:after {
+    display: block;
+    position: absolute;
+    content: '';
+    top: 50%;
+    right: .4rem;
+    margin-top: -.15rem;
+    width: 0;
+    height: 0;
+    border-top: .3rem solid #fff;
+    border-left: .2rem solid transparent;
+    border-right: .2rem solid transparent;
+}
+.apply-btn {
+    bottom: -15px;
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #ffd200;
+    color: #000;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.apply-arrow {
+    display: inline-block;
+    margin-left: 5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.apply-arrow:after {
+    margin-left: .2rem;
+    display: block;
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: .3rem solid #ffd200;
+    border-top: .3rem solid transparent;
+    border-bottom: .3rem solid transparent;
+}
+.apply-tips-text {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+/* 报名框右侧 */
+.apply-content-right{
+    margin-left: -10px;
+    padding: 5%;
+    box-sizing: border-box;
+    width: 50%;
+    height: 90%;
+    background-color: #fff;
+    border-radius: 2px;
+}
+.apply-list-content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.apply-item {
+    font-size: 14px;
+    line-height: 30px;
+}
+.apply-item span {
+    margin-right: 20px;
+}
+.half-container {
+    position: relative;
+    width: 100%;
+    background-position: bottom center;
+    background-size: 100%;
+    background-image: url('../Images/pc/footer_bg.jpg');
+    background-repeat: no-repeat;
+}
+.half-container .half-wrap:first-child {
+    margin: -50px auto 0;
+    padding: 0 .4%;
+}
+.half-wrap {
+    margin: 0 auto;
+    width: 60%;
+    box-sizing: border-box;
+}
+.footer-content {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(37,101,155,.5);
+}
