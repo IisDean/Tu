@@ -350,3 +350,9 @@ transform-origin: bottom center;
     color: #fff;
     letter-spacing: 4px;
 }
+.swiper-pagination-bullet {
+    box-shadow: 0 0 10px #000;
+}
+.swiper-pagination-bullet-active {
+    background: #fff;
+}

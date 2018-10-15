@@ -150,3 +150,9 @@
     height: 40%;
     background-image: url(../Images/m/apply_bg.png);
 }
+.swiper-pagination-bullet {
+    box-shadow: 0 0 10px #000;
+}
+.swiper-pagination-bullet-active {
+    background: #fff;
+}

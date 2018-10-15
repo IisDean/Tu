@@ -25,7 +25,7 @@ var mySwiper = new Swiper('.swiper-container', {
     spaceBetween: 30,
     loop: true,
     centeredSlides: true,
-    coverflowEffect: {
+    coverflow: {
         rotate: 0,
         stretch: 0,
         depth: 20,
