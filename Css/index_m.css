@@ -14,7 +14,7 @@
     padding: 0 20%;
     width: 100%;
     height: 32%;
-    background-image: url('../Images/apply_bg.png');
+    background-image: url('../Images/m/apply_bg.png');
 }
 .apply-title-text {
     margin: .2rem 0 0;
@@ -56,6 +56,9 @@
     color: #fff;
     -webkit-appearance: none;
     appearance: none;
+}
+.select-wrap select option {
+    color: #000;
 }
 .input-wrap input::-webkit-input-placeholder {
     color: #fff;
@@ -103,7 +106,7 @@
 }
 .banner-container {
     width: 100%;
-    background-image: url('../Images/banner_bg.jpg');
+    background-image: url('../Images/m/banner_bg.jpg');
     background-position: center center;
     background-size: cover;
     overflow: hidden;
@@ -145,5 +148,5 @@
     padding: 0 20%;
     width: 100%;
     height: 40%;
-    background-image: url(../Images/apply_bg.png);
+    background-image: url(../Images/m/apply_bg.png);
 }

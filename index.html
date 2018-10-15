@@ -4,124 +4,218 @@
 <head>
     <meta charset="UTF-8">
     <title>兔宝宝衣柜-报名</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312"/>
     <!--页面css样式开始-->
     <link rel="stylesheet" href="Css/swiper.css">
     <link rel="stylesheet" type="text/css" href="Css/index.css?v=1.11">
     <!--页面css样式结束-->
 </head>
-<body id="bodys">
+<body>
 
-    <div class="ui-full-img article-wrap">
-        <img src="Images/pc/bg_1.jpg" alt="">
-        <div class="ui-abs apply-container">
-            <img src="Images/pc/apply_bg.png" alt="">
-            <div class="ui-abs apply-wrap">
-                <p class="ui-text-right apply-title-text">已有 <span class="yellow-text">4322</span> 人报名</p>
-                <div class="apply-content clearfix">
-                    <!-- 报名 -->
-                    <div class="ui-abs apply-content-left">
-                        <div class="apply-form-wrap">
-                            <div class="clearfix input-container">
-                                <span class="input-title-text">姓名：</span>
-                                <div class="input-wrap"><input type="text" placeholder=""></div>
-                            </div>
-                            <div class="clearfix input-container">
-                                <span class="input-title-text">手机：</span>
-                                <div class="input-wrap"><input type="tel" maxlength="11" placeholder=""></div>
-                            </div>
-                            <div class="clearfix input-container" style="width: auto;">
-                                <span class="input-title-text">城市：</span>
-                                <div class="select-wrap" style="width: 30%;">
-                                    <select name="ProvinceId"></select>
-                                </div>
-                                <span class="input-title-text" style="margin: 0 5px;">省</span>
-                                <div class="select-wrap" style="width: 30%;">
-                                    <select name="CityId"></select>
-                                </div>
-                                <span class="input-title-text" style="margin: 0 5px;">市</span>
-                            </div>
-                            <div class="ui-abs-center ui-text-center ani-touch-scale apply-btn">
-                                <span class="">一键定制</span>
-                                <span class="apply-arrow"></span>
-                            </div>
+<div class="ui-full-img article-wrap">
+    <img src="Images/pc/bg_1.jpg" alt="">
+    <div class="ui-abs apply-container">
+        <img src="Images/pc/apply_bg.png" alt="">
+        <div class="ui-abs apply-wrap">
+            <p class="ui-text-right apply-title-text">已有 <span class="yellow-text">4322</span> 人报名</p>
+            <div class="apply-content clearfix">
+                <!-- 报名 -->
+                <div class="ui-abs apply-content-left">
+                    <div class="apply-form-wrap">
+                        <div class="clearfix input-container">
+                            <span class="input-title-text">姓名：</span>
+                            <div class="input-wrap"><input type="text" id="userName" placeholder=""></div>
                         </div>
-                        <p class="ui-text-center ui-font-xs apply-tips-text">兔宝宝承诺，您的信息将被严格保密！</p>
+                        <div class="clearfix input-container">
+                            <span class="input-title-text">手机：</span>
+                            <div class="input-wrap"><input type="tel" id="userMobile" maxlength="11" placeholder=""></div>
+                        </div>
+                        <div class="clearfix input-container" style="width: auto;">
+                            <span class="input-title-text">城市：</span>
+                            <div class="select-wrap" style="width: 30%;">
+                                <select id="ProvinceId" name="ProvinceId"></select>
+                            </div>
+                            <span class="input-title-text" style="margin: 0 5px;">省</span>
+                            <div class="select-wrap" style="width: 30%;">
+                                <select id="CityId" name="CityId"></select>
+                            </div>
+                            <span class="input-title-text" style="margin: 0 5px;">市</span>
+                        </div>
+                        <div class="ui-abs-center ui-text-center ani-touch-scale apply-btn J-apply-btn">
+                            <span class="">一键定制</span>
+                            <span class="apply-arrow"></span>
+                        </div>
                     </div>
-                    <!-- 报名信息 -->
-                    <div class="apply-content-right apply-list-container">
-                        <div class="apply-list-content">
-                            <ul class="ui-text-center J-new-list">
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****8745</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                                <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
-                            </ul>
-                        </div>
+                    <p class="ui-text-center ui-font-xs apply-tips-text">兔宝宝承诺，您的信息将被严格保密！</p>
+                </div>
+                <!-- 报名信息 -->
+                <div class="apply-content-right apply-list-container">
+                    <div class="apply-list-content">
+                        <ul class="ui-text-center J-new-list">
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****8745</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                            <li class="apply-item"><span>业主 135****4356</span>成功报名</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_2.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_3.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_4.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_5.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_6.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_7.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_8.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_9.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_10.jpg" />
-    </div>
-    <div class="ui-full-img">
-        <img src="Images/pc/bg_11.jpg" />
-    </div>
+<div class="ui-full-img">
+    <img src="Images/pc/bg_2.jpg"/>
+</div>
+<div class="ui-full-img" data-location="from-1">
+    <img src="Images/pc/bg_3.jpg"/>
+</div>
+<div class="ui-full-img">
+    <img src="Images/pc/bg_4.jpg"/>
+</div>
+<div class="ui-full-img">
+    <img src="Images/pc/bg_5.jpg"/>
+</div>
+<div class="ui-full-img">
+    <img src="Images/pc/bg_6.jpg"/>
+</div>
+<div class="ui-full-img">
+    <img src="Images/pc/bg_7.jpg"/>
+</div>
+<div class="ui-full-img" data-location="from-2">
+    <img src="Images/pc/bg_8.jpg"/>
+</div>
+<div class="ui-full-img" data-location="from-3">
+    <img src="Images/pc/bg_9.jpg"/>
+</div>
+<div class="ui-full-img" data-location="from-4">
+    <img src="Images/pc/bg_10.jpg"/>
+</div>
+<div class="ui-full-img" data-location="from-5">
+    <img src="Images/pc/bg_11.jpg"/>
+</div>
 
-    <!-- 分割 -->
-    <div class="half-container">
-        <div class="ui-full-img half-wrap">
-            <img src="Images/pc/bg_12.jpg" />
-        </div>
-        <div class="ui-full-img half-wrap">
-            <img src="Images/pc/bg_13.jpg" />
-        </div>
-        <div class="ui-full-img half-wrap">
-            <img src="Images/pc/bg_14.jpg" />
-        </div>
-        <div class="ui-full-img half-wrap">
-            <img src="Images/pc/bg_15.png" />
-        </div>
-        <div class="ui-full-img half-wrap">
-            <img src="Images/pc/bg_16.png" />
-        </div>
-        <div class="footer-content">
+<!-- 分割 -->
+<div class="half-container">
+    <div class="ui-full-img half-wrap">
+        <img src="Images/pc/bg_12.jpg"/>
+        <div class="ui-abs furn-container">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
 
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_1.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">一“线”之间<br/>尊“柜”尽显</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_2.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">精致生活<br/>精雕细琢</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_3.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">精致复古拉手<br/>仿佛遇见旧日时光</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_4.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">多层储物设计<br/>分类储物生活更轻松</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_5.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">25年专注<br/>健康环保板材</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="ui-full-img furn-icon">
+                            <img src="Images/pc/furn_6.jpg"/>
+                        </div>
+                        <div class="furn-down">
+                            <p class="ui-text-center">五金打造<br/>美观耐用</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
     </div>
+    <div class="ui-full-img half-wrap">
+        <img src="Images/pc/bg_13.jpg"/>
+    </div>
+    <div class="ui-full-img half-wrap">
+        <img src="Images/pc/bg_14.jpg"/>
+    </div>
+    <div class="ui-full-img half-wrap">
+        <img src="Images/pc/bg_15.png"/>
+    </div>
+    <div class="ui-full-img half-wrap">
+        <img src="Images/pc/bg_16.png"/>
+    </div>
+    <div class="footer-container">
+        <ul class="footer-wrap clearfix">
+            <li class="ui-full-img logo-wrap">
+                <img src="Images/pc/tu_logo.png"/>
+            </li>
+            <li class="ui-full-img footer-tg">
+                <img src="Images/pc/footer_tg.png"/>
+            </li>
+            <li class="yuyue-form">
+                <div class="input-container2 clearfix">
+                    <div class="input-title2">姓名：</div>
+                    <div class="input-wrap2">
+                        <input id="userName2" type="text"/>
+                    </div>
+                </div>
+                <div class="input-container2 clearfix">
+                    <div class="input-title2">手机：</div>
+                    <div class="input-wrap2">
+                        <input id="userMobile2" type="tel" maxlength="11"/>
+                    </div>
+                </div>
+            </li>
+            <li class="ui-full-img footer-btn J-yuyue-btn">
+                <img src="Images/pc/footer_btn.png"/>
+            </li>
+            <li class="ui-full-img code-wrap">
+                <img src="Images/pc/code.png"/>
+            </li>
+        </ul>
+    </div>
+</div>
 
+<div class="ui-full-img nav-bar">
+    <img src="Images/pc/navBar.png"/>
+    <ul class="ui-abs nav-wrap J-goto-list">
+        <li class="nav-list" data-name="from-1">价冻全国</li>
+        <li class="nav-list" data-name="from-2">摩登时代</li>
+        <li class="nav-list" data-name="from-3">古韵芳华</li>
+        <li class="nav-list" data-name="from-4">枫丹白露</li>
+        <li class="nav-list" data-name="from-5">爱情海岸</li>
+    </ul>
+    <div class="ui-text-center nav-top J-goTop-btn">TOP</div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 <script src="Js/swiper.js"></script>
